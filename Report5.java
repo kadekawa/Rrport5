@@ -1,11 +1,7 @@
 public class Report5{
     public static void main(String[] args) {
-        try{
-            String str = null;
-            System.out.print(str.length());
-        }catch(NullPointerException e){
-            System.out.println("NullPointerExceptionが発生しました");
-            System.out.println(e.getMessage());
-        }
+        String str = "壱百満";
+        int value ;
+        value = Integer.parseInt(str);
     }
 }
